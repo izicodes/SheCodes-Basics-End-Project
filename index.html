@@ -1,61 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sleepy Princess </title>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleepy Princess</title>
+
     <!-- CSS -->
     <style>
-        
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #d2352a;
+        background-image: linear-gradient(62deg, #d2352a 0%, #edaaa1 100%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .container {
+        margin: 60px auto;
+        display: block;
+        width: 550px;
+        background-color: #efefef;
+      }
+
+      #banner {
+        width: 550px;
+      }
+
+      .top p{
+        padding: 3%;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.8em;
+      }
+
+      h1{
+        text-align: center;
+        font-size: 1.5em;
+        color: #B53729;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 1.2em;
+      }
+
+      .card {
+
+      }
 
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/491/original/banner-image.png?1663531881"
+        alt="image of a sleepy princess banner"
+        id="banner"
+      />
 
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/491/original/banner-image.png?1663531881"alt="image of a sleepy princess banner">
-
+      <div class="top">
         <h1>Sleepy Princess in the Demon Castle</h1>
         <h2>Character Selection</h2>
 
-        <p>Sleepy Princess in the Demon Castle is a Japanese manga series written and illustrated by Kagiji Kumanomata. A captured princess just wants a good night’s sleep! Imprisoned in Twilight, the Demon King's castle, all spoiled-sweet Princess Syalis dreams of is a good night’s sleep...</p>
+        <p>
+          Sleepy Princess in the Demon Castle is a Japanese manga series written
+          and illustrated by Kagiji Kumanomata. A captured princess just wants a
+          good night’s sleep! Imprisoned in Twilight, the Demon King's castle,
+          all spoiled-sweet Princess Syalis dreams of is a good night’s sleep...
+        </p>
 
-        <p>Today, you get to vote for either of the two main characters so that when the votes are counted, one will be the lead for a future game that will be released next year. Look at their description and choose wisely! And remember, have fun!</p>
+        <p>
+          Today, you get to vote for either of the two main characters so that
+          when the votes are counted, one will be the lead for a future game
+          that will be released next year. Look at their description and choose
+          wisely! And remember, have fun!
+        </p>
+      </div>
 
-        <!-- Princess Syalis -->
-        <div class="card">
-            <img src="https://64.media.tumblr.com/f26699de95e4109ba6bc6bdba2da8448/fe2c4097b597b2ea-6b/s540x810/19e71050715afcdcbed677a780d83fc82f52ba41.gifv" alt="">
+      <!-- Princess Syalis -->
+      <div class="card">
+        <img
+          src="https://64.media.tumblr.com/f26699de95e4109ba6bc6bdba2da8448/fe2c4097b597b2ea-6b/s540x810/19e71050715afcdcbed677a780d83fc82f52ba41.gifv"
+          alt=""
+        />
 
-            <h3>Princess Syalis</h3>
+        <h3>Princess Syalis</h3>
 
-            <p>Her full name is Aurora Sya Lis Goodereste and she is the princess of the Unified Human Nation of Goodereste. She was kidnapped by the Demon King to make the kingdom fear him and to lure Dawner the Hero to fight him so they could end the war between humans and demons. </p>
+        <p>
+          Her full name is Aurora Sya Lis Goodereste and she is the princess of
+          the Unified Human Nation of Goodereste. She was kidnapped by the Demon
+          King to make the kingdom fear him and to lure Dawner the Hero to fight
+          him so they could end the war between humans and demons.
+        </p>
 
-            <button>Vote for the Princess</button>
-        </div>
+        <button>Vote for the Princess</button>
+      </div>
 
-        <!-- Twilight, the Demon King -->
-        <div class="card">
-            <img src="https://64.media.tumblr.com/b5a64158dbd5e3dcadcdb4247e0380cf/fbb35e99ac76514b-60/s540x810/cd6d1f1f3bb35c049a751bce26af51c3567ab83c.gifv" alt="">
+      <!-- Twilight, the Demon King -->
+      <div class="card">
+        <img
+          src="https://64.media.tumblr.com/b5a64158dbd5e3dcadcdb4247e0380cf/fbb35e99ac76514b-60/s540x810/cd6d1f1f3bb35c049a751bce26af51c3567ab83c.gifv"
+          alt=""
+        />
 
-            <h3>Demon Kind Twilight</h3>
-            
-            <p>He is the lord of the Demon Castle who kidnapped Princess Aurora Sya Lis Goodereste. He claims to hold the greatest sway over the entire world, which is currently divided between humans and demons, but what he cares about most are event flags and game balance.</p>
+        <h3>Demon Kind Twilight</h3>
 
-            <button>Vote for the Demon King</button>
-        </div>
+        <p>
+          He is the lord of the Demon Castle who kidnapped Princess Aurora Sya
+          Lis Goodereste. He claims to hold the greatest sway over the entire
+          world, which is currently divided between humans and demons, but what
+          he cares about most are event flags and game balance.
+        </p>
 
-        <footer>
+        <button>Vote for the Demon King</button>
+      </div>
 
-        </footer>
-
+      <footer>
+        <p id="credits">
+          Coded by Isabelle (Loariya-Fiaba) Zennah | GitHub: @FaerieCoder 🧑🏽‍💻🌼
+        </p>
+      </footer>
     </div>
 
-    
     <!-- JavaScript -->
-    <script>
-        
-    </script>
-</body>
+    <script></script>
+  </body>
 </html>
