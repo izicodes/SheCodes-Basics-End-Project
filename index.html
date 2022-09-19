@@ -21,7 +21,7 @@
         margin: 60px auto;
         display: block;
         width: 550px;
-        background-color: #e6e6e6;
+        background-color: #efefef;
         border-radius: 20px;
 
         box-shadow: 6px 9px 10px 1px #82160e50;
@@ -207,6 +207,22 @@
     </div>
 
     <!-- JavaScript -->
-    <script></script>
+    <script>
+        
+        function voting() {
+            alert("Hello and thank you for voting this character!")
+            let age = prompt("Before submitting your vote, what is your age?")
+
+            if (age < 18) {
+                alert("Sorry be it appears you are underage to vote; you have to be 18 or above to vote!")
+            } else {
+                alert("Your vote will be submitted and counted for our game project! Thank you, goodbye!")
+            }
+        }
+
+        let voteButton = document.querySelector("button");
+        voteButton.addEventListener("click", voting)
+
+    </script>
   </body>
 </html>
