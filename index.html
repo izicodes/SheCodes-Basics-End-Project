@@ -20,11 +20,16 @@
         margin: 60px auto;
         display: block;
         width: 550px;
-        background-color: #efefef;
+        background-color: #e6e6e6;
+        border-radius: 20px;
+
+        box-shadow: 6px 9px 10px 1px #82160e50;
       }
 
       #banner {
         width: 550px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
       }
 
       .top p{
@@ -45,19 +50,43 @@
         font-size: 1.2em;
       }
 
+      hr{
+        margin-bottom: 40px;
+      }
+
+      a {
+        color: #B53729;
+      }
+
+      a:hover{
+        text-decoration: none;
+        color: #f27e6f;
+      }
+
       .card {
         display: block;
         margin: auto;
         padding: 10px;
         width: 350px;
         background-color: #B53729;
+        margin-bottom: 30px;
 
+        background-color: #efefef;
+        border-top: solid 1px #ffffff;
+        border-left: solid 1px #ffffff;
+        border-radius: 20px;
+        box-shadow: 6px 9px 10px 1px #b537293d, -10px -10px 15px -5px #ffffff;
+        transition:  500ms;
+      }
+
+      .card:hover{
+        background-color: #e9d2d2;
       }
 
       .card img {
         display: block;
         margin: auto;
-        max-width: 85%;
+        max-width: 89%;
         height: auto;
         padding: 20px;
       }
@@ -68,6 +97,34 @@
         margin: 0% auto;
         font-family: 'Times New Roman', Times, serif;
       }
+
+      .card p{
+        margin-top: 0;
+      }
+
+      button {
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 15px;
+        border: none;
+        background-color: #e5cbc8;
+        border-radius: 30px;
+        color: #d6675b;
+        font-weight: bold;
+        box-shadow: 3px 4px 4px 1px #9d96953d, -1px -1px 8px -1px #ffffff;
+      }
+
+      button:hover{
+        background-color: #d6675b;
+        color: #e5cbc8
+      }
+
+      .card:hover button {
+        box-shadow: 3px 4px 4px 1px #b537293d, -1px -1px 8px -1px #ffffff;
+      }
+
+      
 
     </style>
   </head>
@@ -85,7 +142,7 @@
 
         <p>
           <span id="pink"><em>Sleepy Princess in the Demon Castle</em></span> is a Japanese manga series written
-          and illustrated by Kagiji Kumanomata. A captured princess just wants a
+          and illustrated by <a href="http://" id="red">Kagiji Kumanomata</a>. A captured princess just wants a
           good night’s sleep! Imprisoned in Twilight, the Demon King's castle,
           all spoiled-sweet Princess Syalis dreams of is a good night’s sleep...
         </p>
@@ -109,7 +166,7 @@
         <h3>Princess Syalis</h3>
 
         <p>
-          Her full name is Aurora Sya Lis Goodereste and she is the princess of
+          Her full name is <strong>Aurora Sya Lis Goodereste</strong> and she is the princess of
           the Unified Human Nation of Goodereste. She was kidnapped by the Demon
           King to make the kingdom fear him and to lure Dawner the Hero to fight
           him so they could end the war between humans and demons.
@@ -130,7 +187,7 @@
         <h3>Demon King Twilight</h3>
 
         <p>
-          He is the lord of the Demon Castle who kidnapped Princess Aurora Sya
+          His name is <strong>Twilight</strong> and he is the lord of the Demon Castle who kidnapped Princess Aurora Sya
           Lis Goodereste. He claims to hold the greatest sway over the entire
           world, which is currently divided between humans and demons, but what
           he cares about most are event flags and game balance.
