@@ -11,3 +11,6 @@ margin, padding, font-size, font-weight, color, background (with linear-gradient
 
 ### ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 let, if, else, alert, prompt, event
+
+### Link to project!
+https://faeriecoder.github.io/SheCodes-Basics-End-Project/
