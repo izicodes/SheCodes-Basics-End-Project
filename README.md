@@ -1,4 +1,4 @@
-# SheCodes-Basics-End-Project
+# End Project - SheCodes Basics
 
 I finished my workshop of SheCodes and this is the end project I had to make and submit.
 
@@ -13,4 +13,4 @@ margin, padding, font-size, font-weight, color, background (with linear-gradient
 let, if, else, alert, prompt, event
 
 ### Link to project!
-https://faeriecoder.github.io/SheCodes-Basics-End-Project/
+- [Link](https://xiacodes.github.io/SheCodes-Basics-End-Project/)
